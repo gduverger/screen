@@ -115,7 +115,7 @@ a.quiet:visited,
 	color: #999;
 }
 
-ul li {
+li {
 	list-style-type: disc;
 	list-style-position: inside;
 }
