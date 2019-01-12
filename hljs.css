@@ -20,10 +20,6 @@
 	white-space: pre-wrap;
 }
 
-.hljs a {
-	color: inherit;
-}
-
 .hljs-comment {
 	color: #A59FCD;
 }
@@ -31,6 +27,8 @@
 .hljs-attr { color: #CB5655; }
 
 .hljs-string,
+.a-hljs-string,
+.a-hljs-string:hover,
 .hljs-number { color: #F1C45F; }
 
 /*.hljs-meta,*/
