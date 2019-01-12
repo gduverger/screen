@@ -1,0 +1,85 @@
+/* DOC
+	https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html#stylable-classes
+	https://github.com/nickvanderwildt/deep-purple-syntax
+	https://raw.githubusercontent.com/nickvanderwildt/deep-purple-syntax/master/screenshot.png
+	https://github.com/iaolo/iA-Fonts
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+
+.hljs {
+	font-size: 14px;
+	line-height: 21px;
+	display: block;
+	background: #252048;
+	color: #ececec;
+	padding: 0.5em;
+	border-radius: 5px;
+	font-family: 'Roboto Mono', monospace;
+	/* DOC https://meyerweb.com/eric/css/tests/white-space.html */
+	white-space: pre-wrap;
+}
+
+.hljs a {
+	color: inherit;
+}
+
+.hljs-comment {
+	color: #A59FCD;
+}
+
+.hljs-attr { color: #CB5655; }
+
+.hljs-string,
+.hljs-number { color: #F1C45F; }
+
+/*.hljs-meta,*/
+.hljs-class,
+.hljs-title,
+.hljs-attribute {
+	color: #468DDB;
+}
+
+.hljs-keyword,
+.hljs-function {
+	font-weight: bold;
+}
+
+.hljs-built_in,
+.hljs-keyword {
+	color: #91BEE5;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-deletion,
+.hljs-number,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-section,
+.hljs-title,
+.hljs-selector-tag,
+.hljs-emphasis,
+.hljs-strong {
+	/* TODO */
+}
+
+/* HACK */
+.hljs-keyword-in .hljs-keyword,
+.hljs-keyword-from .hljs-keyword {
+	color: inherit;
+	font-weight: inherit;
+}

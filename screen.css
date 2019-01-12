@@ -1,0 +1,125 @@
+/* 6 (0.375), 7 (0.4375), 8 (0.5), 9 (0.5625), 10 (0.625), 11 (0.6875), 12 (0.75), 14 (0.875),
+16 (1), 18 (1.125), 21 (1.3125), 24 (1.5), 36 (2.25), 48 (3), 60 (3.75), 72 (4.5)  px (em) */
+
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+@import url('https://rsms.me/inter/inter-ui.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+
+html {
+	background-color: #fff;
+}
+
+body {
+	font-size: 87.5%; /* 14px */
+	*font-size: small;
+	color: #111;
+	font-family: 'Inter UI', sans-serif;
+	font-size-adjust: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 21px;
+	max-width: 720px;
+	margin: 42px auto;
+}
+
+html > body {
+	font-size: 14px;
+}
+
+a {
+	color: #007bff;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+a:hover {
+	color: #0062cc;
+}
+
+h1,
+.h1 {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2,
+.h2 {
+	text-align: center;
+	font-size: 18px;	
+}
+
+h3,
+.h3 {
+	font-size: 18px;
+    font-weight: 700;
+    margin: 42px 0 21px 0;
+}
+
+p,
+.p {
+	margin: 10px 0 11px 0;
+}
+
+br,
+.br {
+	margin: 21px 0;
+}
+
+b,
+.b,
+strong,
+.strong {
+	font-weight: 700;
+}
+
+i,
+.i,
+em,
+.em {
+	font-style: italic;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+}
+
+code,
+.code {
+	font-family: 'Roboto Mono', monospace;
+	background-color: #ddd;
+	border-radius: 3px;
+	padding: 1px 4px;
+}
+
+.center {
+	text-align: center;
+}
+
+.quiet {
+	color: #999;
+}
+
+ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+br {
+	display: none;
+}
+
+@media screen and (max-width: 762px) {
+	/* 720 + (21 * 2) */
+
+	body {
+		margin: 21px;
+	}
+
+	br {
+		display: inline;
+	}
+}
