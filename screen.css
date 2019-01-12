@@ -34,6 +34,11 @@ a {
 	border-bottom: 1px solid;
 }
 
+a.inherit:link,
+a.inherit:visited {
+	color: inherit;
+}
+
 a:link,
 a:visited {
 	color: #007bff;
