@@ -30,13 +30,18 @@ html > body {
 }
 
 a {
-	color: #007bff;
 	text-decoration: none;
 	border-bottom: 1px solid;
 }
 
-a:hover {
-	color: #0062cc;
+a:link,
+a:visited {
+	color: #007bff;
+}
+
+a:hover,
+a:active {
+	color: #0062cc !important;
 }
 
 h1,
@@ -56,8 +61,8 @@ h2,
 h3,
 .h3 {
 	font-size: 18px;
-    font-weight: 700;
-    margin: 42px 0 21px 0;
+	font-weight: 700;
+	margin: 42px 0 21px 0;
 }
 
 p,
@@ -101,7 +106,11 @@ code,
 	text-align: center;
 }
 
-.quiet {
+.quiet,
+a.quiet:link,
+a.quiet:visited,
+.quiet a:link,
+.quiet a:visited {
 	color: #999;
 }
 
