@@ -30,23 +30,19 @@ html > body {
 }
 
 a {
+	color: #007bff;
 	text-decoration: none;
 	border-bottom: 1px solid;
 }
 
-a.inherit:link,
-a.inherit:visited {
+a.inherit {
 	color: inherit;
 }
 
-a:link,
-a:visited {
-	color: #007bff;
-}
-
 a:hover,
-a:active {
-	color: #0062cc !important;
+a.quiet:hover,
+.quiet a:hover {
+	color: #0062cc;
 }
 
 h1,
@@ -113,10 +109,8 @@ code,
 }
 
 .quiet,
-a.quiet:link,
-a.quiet:visited,
-.quiet a:link,
-.quiet a:visited {
+a.quiet,
+.quiet a {
 	color: #999;
 }
 
