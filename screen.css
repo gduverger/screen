@@ -56,7 +56,8 @@ h1,
 h2,
 .h2 {
 	text-align: center;
-	font-size: 18px;	
+	font-size: 18px;
+	line-height: 24px;
 }
 
 h3,
