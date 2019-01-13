@@ -95,6 +95,12 @@ img {
 	max-width: 100%;
 }
 
+small,
+.small {
+	font-size: 12px;
+	line-height: 18px;
+}
+
 code,
 .code {
 	font-family: 'Roboto Mono', monospace;
