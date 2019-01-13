@@ -168,6 +168,11 @@ blockquote,
 	font-style: italic;
 }
 
+blockquote p,
+.blockquote p {
+	margin: 0;
+}
+
 blockquote:before,
 .blockquote:before {
 	content: '\201C';
