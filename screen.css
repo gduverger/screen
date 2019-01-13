@@ -71,11 +71,6 @@ p,
 	margin: 10px 0 11px 0;
 }
 
-br,
-.br {
-	margin: 21px 0;
-}
-
 b,
 .b,
 strong,
@@ -119,7 +114,7 @@ li {
 	list-style-position: inside;
 }
 
-br {
+.break {
 	display: none;
 }
 
@@ -130,7 +125,7 @@ br {
 		margin: 21px;
 	}
 
-	br {
+	.break {
 		display: inline;
 	}
 }
