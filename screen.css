@@ -137,10 +137,12 @@ a.quiet,
 	color: #999;
 }
 
-hr {
+hr,
+.hr {
 	border: 0;
 	background-color: #ccc;
 	height: 1px;
+	margin: 21px 0;
 }
 
 li {
