@@ -80,6 +80,16 @@ s,
 	text-decoration: line-through;
 }
 
+sub,
+.sub {
+	vertical-align: sub;
+}
+
+sup,
+.sup {
+	vertical-align: super
+}
+
 b,
 .b,
 strong,
