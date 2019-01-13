@@ -170,7 +170,9 @@ blockquote,
 
 blockquote p,
 .blockquote p {
+	/* HACK */
 	margin: 0;
+	display: inline;
 }
 
 blockquote:before,
