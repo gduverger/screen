@@ -75,6 +75,11 @@ p,
 	margin: 21px 0;
 }
 
+s,
+.s {
+	text-decoration: line-through;
+}
+
 b,
 .b,
 strong,
@@ -118,6 +123,11 @@ code,
 a.quiet,
 .quiet a {
 	color: #999;
+}
+
+hr {
+	/*height: 1px;*/
+	border: 1px solid #ccc;
 }
 
 li {
