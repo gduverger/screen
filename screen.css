@@ -138,8 +138,9 @@ a.quiet,
 }
 
 hr {
-	/*height: 1px;*/
-	border: 1px solid #ccc;
+	border: 0;
+	background-color: #ccc;
+	height: 1px;
 }
 
 li {
