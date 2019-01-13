@@ -6,7 +6,7 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="CSS for desktops, tablets, and phones.">
+		<meta name="description" content="CSS for desktops, tablets, and phones">
 		<meta name="keywords" content="css, screen, gduverger">
 
 		<link rel="shortcut icon" type="image/png" href="icon.png">
@@ -18,7 +18,7 @@
 
 			<img src="icon.png" style="height: 63px">
 			<h1>screen.css</h1>
-			<h2>CSS for desktops, tablets, and phones.</h2>
+			<h2>CSS for desktops, tablets, and phones</h2>
 
 			<br>
 
@@ -31,13 +31,26 @@
 
 			<h3>Typography</h3>
 
-			<p>This is <b>b</b>. This is <strong>strong</strong>. This is <i>i</i>. This is <em>em</em>.</p>
+			<p>This is <b>&lt;b&gt;</b> and <span class="b">.b</span>.<p>
+			<p>This is <strong>&lt;strong&gt;</strong> and <span class="strong">.strong</span>.</p>
+			<p>This is <i>&lt;i&gt;</i> and <span class="i">.i</span>.</p>
+			<p>This is <em>&lt;em&gt;</em> and <span class="em">.em</span>.</p>
+			<p>This is <a href="#">&lt;a&gt;</a>.</p>
+			<p>This is <a href="#" class="inherit">&lt;a.inherit&gt;</a>.</p>
+			<p>This is <span class="quiet">.quiet</span>.</p>
+			<p>This is <a href="#" class="quiet">&lt;a.quiet&gt;</a>.</p>
+			<p class="quiet">This is a .quiet paragraph with <a href="#">&lt;a&gt;</a>.</p>
+			<p>This is <small>&lt;small&gt;</small> and <span class="small">.small</span>.</p>
+			<p class="small">This is a .small paragraph.</p>
+			
+			<h3>Quotes</h3>
 
-			<p>This is a <a href="#">link</a>. This is an <a href="#" class="inherit">inherit link</a>. This is <span class="quiet">quiet</span>. This is a <a href="#" class="quiet">quiet link</a>.</p>
-
-			<p class="quiet">This is a quiet paragraph with a <a href="#">link</a>.</p>
-
-			<p class="small">This is small.</p>
+			<div class="p">
+				This is &lt;blockquote&gt;:
+				<blockquote>It's better to have CSS-ed and lost than to never have CSS-ed at all.</blockquote>
+				And .blockquote:
+				<div class="blockquote">It's better to have CSS-ed and lost than to never have CSS-ed at all.</div>
+			</div>
 
 			<h3>Layout</h3>
 
@@ -71,7 +84,7 @@
 				A caption
 			</div>
 
-			<h3>Responsive</h3>
+			<h3>Break points</h3>
 
 			<div class="p">
 				<code>.break</code> are only displayed in responsive mode when:

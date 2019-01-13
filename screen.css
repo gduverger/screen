@@ -140,6 +140,22 @@ table td {
 	border-bottom: 1px solid #ccc;
 }
 
+blockquote,
+.blockquote {
+	margin: 42px;
+	font-style: italic;
+}
+
+blockquote:before,
+.blockquote:before {
+	content: '\201C';
+}
+
+blockquote:after,
+.blockquote:after {
+	content: '\201D';
+}
+
 .break {
 	display: none;
 }
