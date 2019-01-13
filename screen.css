@@ -76,7 +76,9 @@ p,
 }
 
 s,
-.s {
+.s,
+del,
+.del {
 	text-decoration: line-through;
 }
 
