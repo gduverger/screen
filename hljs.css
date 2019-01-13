@@ -20,6 +20,11 @@
 	white-space: pre-wrap;
 }
 
+.a-hljs,
+.a-hljs:hover {
+	color: inherit;
+}
+
 .hljs-comment {
 	color: #A59FCD;
 }
