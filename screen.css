@@ -114,6 +114,21 @@ li {
 	list-style-position: inside;
 }
 
+table {
+	width: 100%;
+	text-align: left;
+}
+
+table th {
+	font-weight: 600;
+}
+
+table th,
+table td {
+	padding: 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+
 .break {
 	display: none;
 }
