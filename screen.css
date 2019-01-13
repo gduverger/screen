@@ -67,6 +67,12 @@ h3,
 	margin: 42px 0 21px 0;
 }
 
+h4,
+.h4 {
+	font-size: 16px;
+	line-height: 21px;
+}
+
 p,
 .p {
 	margin: 10px 0 11px 0;
