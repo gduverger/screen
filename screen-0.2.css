@@ -209,11 +209,11 @@ blockquote:after,
 	display: none;
 }
 
-@media screen and (max-width: 762px) {
-	/* 720 + (21 * 2) */
+@media screen and (max-width: 768px) {
+	/* 720 + (24 * 2) */
 
 	body {
-		margin: 21px;
+		margin: 24px;
 	}
 
 	.break {
