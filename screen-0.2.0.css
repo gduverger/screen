@@ -59,6 +59,7 @@ h2,
 h3,
 .h3 {
 	font-size: 18px;
+	font-weight: 700;
 }
 
 h4,
@@ -128,6 +129,10 @@ iframe {
 small,
 .small {
 	font-size: 12px;
+}
+
+.large {
+	font-size: 21px;
 }
 
 code,
