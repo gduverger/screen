@@ -163,11 +163,9 @@ hr,
 	width: 100px;
 }
 
-li {
-	margin-left: 20px;
-	list-style-type: disc;
-	list-style-position: initial;
-}
+ol li { list-style-type: decimal; }
+ul li { list-style-type: disc; }
+li { margin-left: 20px; }
 
 table {
 	width: 100%;
