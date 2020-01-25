@@ -21,7 +21,11 @@
 
 			<h1>Screen &mdash; a CSS for desktops, tablets, & phones</h1>
 
-			<p><a href="screen-0.2.css">Download</a> or link to the style sheet. <a href="https://cash.app/$gduverger">Donate</a> a coffee or two.</p>
+			<p>
+				<a href="screen-0.2.css">Download</a> or link to the style sheet.
+				<span class="break"><br></span>
+				<a href="https://cash.app/$gduverger">Donate</a> a coffee or two.
+			</p>
 
 <pre class="p"><code class="html">&lt;link <span class="break">
   </span>rel="stylesheet" <span class="break">
@@ -64,6 +68,7 @@
 			<p class="quiet">This is a .quiet paragraph with <a href="#">&lt;a&gt;</a>.</p>
 			<p>This is <sub>&lt;sub&gt;</sub> and <span class="sub">.sub</span>.</p>
 			<p>This is <sup>&lt;sup&gt;</sup> and <span class="sup">.sup</span>.</p>
+			<p>This is <span class="large">.large</span>.</p>
 			<p>This is <small>&lt;small&gt;</small> and <span class="small">.small</span>.</p>
 			<p class="small">This is a .small paragraph.</p>
 
@@ -158,12 +163,12 @@
 
 			<h2 id="breaks">Breaks</h2>
 
-			<p>This is <code>.break</code> (try it in a small window): <span class="break quiet">&para;<br></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="break quiet">&para;<br></span>Vestibulum mollis semper porttitor. <span class="break quiet">&para;<br></span>Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. <span class="break quiet">&para;<br></span>Proin eget aliquam neque. <span class="break quiet">&para;<br></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="break quiet">&para;<br></span>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <span class="break quiet">&para;<br></span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <span class="break quiet">&para;<br></span>Aliquam dignissim feugiat erat, in congue tellus scelerisque et. <span class="break quiet">&para;<br></span>Sed vitae varius massa.</p>
+			<p>Resize the window to &ldquo;break&rdquo; the paraph below.</p>
 
-			<div class="p">
-				<code>.break</code> are only displayed in responsive mode when:
-				<pre><code class="css">@media screen and (max-width: 762px)</code></pre>
-			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="break quiet">&para;<br></span>Vestibulum mollis semper porttitor. <span class="break quiet">&para;<br></span>Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. <span class="break quiet">&para;<br></span>Proin eget aliquam neque. <span class="break quiet">&para;<br></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="break quiet">&para;<br></span>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <span class="break quiet">&para;<br></span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <span class="break quiet">&para;<br></span>Aliquam dignissim feugiat erat, in congue tellus scelerisque et. <span class="break quiet">&para;<br></span>Sed vitae varius massa.</p>
+
+			<p><code>.break</code> are displayed in responsive mode when:</p>
+			<pre class="p"><code class="css">@media screen and (max-width: 762px)</code></pre>
 
 			<!-- <p>Lorem ipsum dolor sit amet, <wbr>consectetur adipiscing elit.</p> -->
 
