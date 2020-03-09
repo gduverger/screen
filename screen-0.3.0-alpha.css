@@ -202,6 +202,7 @@ blockquote:after,
 	content: '\201D';
 }
 
+.br,
 .break {
 	display: none;
 }
@@ -213,6 +214,7 @@ blockquote:after,
 		margin: 24px;
 	}
 
+	.br,
 	.break {
 		display: inline;
 	}
