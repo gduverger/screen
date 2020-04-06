@@ -20,6 +20,8 @@ body {
 	font-variant: normal;
 	font-weight: normal;
 	line-height: 1.5;
+	max-width: 720px;
+	margin: 48px;
 
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
