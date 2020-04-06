@@ -43,7 +43,7 @@ a.inherit {
 
 h1,
 .h1 {
-	font-size: 72px;
+	font-size: 48px;
 	font-weight: 700;
 	line-height: 1.1;
 }
@@ -124,6 +124,19 @@ iframe {
 	display: block;
 	max-width: 100%;
 }
+
+.box {
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.action-box { background-color: AliceBlue; }
+
+.info-box { background-color: Moccasin; }
+.info-box a { color: Chocolate; }
+
+.error-box { background-color: Salmon; }
+.error-box a { color: DarkRed; }
 
 small,
 .small {
