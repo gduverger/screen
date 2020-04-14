@@ -1,0 +1,243 @@
+/* https://screencss.com/ */
+
+/* 6 (0.375), 7 (0.4375), 8 (0.5), 9 (0.5625), 10 (0.625), 11 (0.6875), 12 (0.75), 14 (0.875),
+16 (1), 18 (1.125), 21 (1.3125), 24 (1.5), 36 (2.25), 48 (3), 60 (3.75), 72 (4.5)  px (em) */
+
+@import url('https://meyerweb.com/eric/tools/css/reset/reset.css');
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+
+html {
+	background-color: white;
+}
+
+body {
+	font-size: 16px;
+	color: black;
+	font-family: 'Inter', -system-ui, system-ui, sans-serif;
+	font-size-adjust: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	max-width: 720px;
+	margin: 48px;
+
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+
+	-moz-font-feature-settings:    "calt" 1, "kern" 1, "liga" 1;
+	-ms-font-feature-settings:     "calt" 1, "kern" 1, "liga" 1;
+	-o-font-feature-settings:      "calt" 1, "kern" 1, "liga" 1;
+	-webkit-font-feature-settings: "calt" 1, "kern" 1, "liga" 1;
+	font-feature-settings:         "calt" 1, "kern" 1, "liga" 1;
+}
+
+a {
+	color: blue;
+}
+
+a.inherit {
+	color: inherit;
+}
+
+h1,
+.h1 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+h2,
+.h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+h3,
+.h3 {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+h4,
+.h4 {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.5
+}
+
+h1, h2, h3 {
+	margin: 1.5em 0 0.5em 0;
+}
+
+p,
+.p {
+	margin: 12px 0 12px 0;
+}
+
+.br {
+	margin: 24px 0;
+}
+
+s,
+.s,
+del,
+.del {
+	text-decoration: line-through;
+}
+
+sub,
+.sub {
+	vertical-align: sub;
+}
+
+sup,
+.sup {
+	vertical-align: super
+}
+
+b,
+.b,
+strong,
+.strong {
+	font-weight: 700;
+}
+
+i,
+.i,
+em,
+.em,
+q,
+.q,
+.quote {
+	font-style: italic;
+}
+
+mark,
+.mark {
+	background-color: yellow;
+}
+
+img,
+iframe {
+	display: block;
+	max-width: 100%;
+}
+
+.box {
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.action-box { background-color: AliceBlue; }
+
+.info-box { background-color: Moccasin; }
+.info-box a { color: Chocolate; }
+
+.error-box { background-color: Salmon; }
+.error-box a { color: DarkRed; }
+
+small,
+.small {
+	font-size: 12px;
+}
+
+.large {
+	font-size: 21px;
+}
+
+code,
+.code {
+	font-family: 'Roboto Mono', monospace;
+	background-color: LightGrey;
+	border-radius: 3px;
+	padding: 0 3px;
+}
+
+.center {
+	text-align: center;
+}
+
+.quiet,
+a.quiet,
+.quiet a {
+	color: grey;
+}
+
+hr,
+.hr {
+	border: 0;
+	background-color: LightGrey;
+	height: 1px;
+	margin: 21px auto;
+	width: 100px;
+}
+
+ol li { list-style-type: decimal; }
+ul li { list-style-type: disc; }
+li { margin-left: 20px; }
+
+table {
+	width: 100%;
+	text-align: left;
+}
+
+table th {
+	font-weight: 600;
+}
+
+table th,
+table td {
+	padding: 5px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+blockquote,
+.blockquote {
+	margin: 21px;
+	font-style: italic;
+}
+
+blockquote p,
+.blockquote p {
+	/* HACK */
+	margin: 0;
+	display: inline;
+}
+
+blockquote:before,
+.blockquote:before {
+	content: '\201C';
+}
+
+blockquote:after,
+.blockquote:after {
+	content: '\201D';
+}
+
+.mobile {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	/* 720 + (24 * 2) */
+
+	body {
+		margin: 24px;
+	}
+
+	.mobile {
+		display: inline;
+	}
+
+	.desktop {
+		display: none;
+	}
+}
