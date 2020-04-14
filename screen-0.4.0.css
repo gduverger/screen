@@ -226,8 +226,11 @@ blockquote:after,
 	display: none;
 }
 
-@media screen and (max-width: 768px) {
-	/* 720 + (24 * 2) */
+@media screen and (max-width: 896px) {
+	/*
+	Google Pixel 4 viewport: 411 x 869
+	iPhone 11 Pro Max viewport: 414 x 896
+	*/
 
 	body {
 		margin: 24px;
