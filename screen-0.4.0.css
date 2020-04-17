@@ -226,7 +226,9 @@ blockquote:after,
 	display: none;
 }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 768px) {
+	/* 720 + (24 * 2) */
+
 	/*
 	Google Pixel 4 viewport: 411 x 869
 	iPhone 11 Pro Max viewport: 414 x 896
