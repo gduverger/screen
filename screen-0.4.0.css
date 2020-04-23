@@ -158,7 +158,7 @@ small,
 }
 
 .large {
-	font-size: 21px;
+	font-size: 24px;
 }
 
 code,
@@ -184,7 +184,7 @@ hr,
 	border: 0;
 	background-color: LightGrey;
 	height: 1px;
-	margin: 21px auto;
+	margin: 23px auto 24px auto;
 	width: 100px;
 }
 
@@ -209,7 +209,7 @@ table td {
 
 blockquote,
 .blockquote {
-	margin: 21px;
+	margin: 24px;
 	font-style: italic;
 }
 
@@ -250,11 +250,11 @@ blockquote:after,
 		margin: 24px;
 	}
 
-	.mobile {
-		display: inline;
-	}
-
 	.desktop {
 		display: none;
+	}
+
+	.mobile {
+		display: inline;
 	}
 }
