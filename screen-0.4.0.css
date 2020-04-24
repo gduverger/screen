@@ -179,6 +179,13 @@ a.quiet,
 	color: grey;
 }
 
+mark.quiet,
+.mark.quiet,
+.quiet mark,
+.quiet .mark {
+	background-color: lemonchiffon;
+}
+
 hr,
 .hr {
 	border: 0;
