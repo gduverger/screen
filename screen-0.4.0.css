@@ -188,6 +188,7 @@ mark.quiet,
 	background-color: lemonchiffon;
 }
 
+/*
 hr,
 .hr {
 	border: 0;
@@ -196,6 +197,7 @@ hr,
 	margin: 23px auto 24px auto;
 	width: 100px;
 }
+*/
 
 ol li { list-style-type: decimal; }
 ul li { list-style-type: disc; }
