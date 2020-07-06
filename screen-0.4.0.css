@@ -35,7 +35,17 @@ body {
 	font-feature-settings:         "calt" 1, "kern" 1, "liga" 1;
 }
 
-a {
+a,
+a:link,
+a.link,
+a:visited,
+a.visited,
+a:hover,
+a.hover,
+a:active,
+a.active,
+a:focus,
+a.focus {
 	color: blue;
 }
 
@@ -45,29 +55,21 @@ a.inherit {
 
 h1,
 .h1 {
-	font-size: 48px;
-	font-weight: 700;
 	line-height: 1.1;
 }
 
 h2,
 .h2 {
-	font-size: 24px;
-	font-weight: 700;
 	line-height: 1.3;
 }
 
 h3,
 .h3 {
-	font-size: 18px;
-	font-weight: 700;
 	line-height: 1.4;
 }
 
 h4,
 .h4 {
-	font-size: 16px;
-	font-weight: normal;
 	line-height: 1.5
 }
 
@@ -75,31 +77,67 @@ h1, h2, h3 {
 	margin: 1.5em 0 0.5em 0;
 }
 
+hr,
+.hr {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: grey;
+	border: none;
+	margin: unset;
+	margin: 23px auto 24px auto;
+}
+
+hr span,
+.hr span {
+	margin: 0 10px;
+}
+
+hr:before,
+.hr::before,
+hr:after,
+.hr::after {
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid lightgrey;
+}
+
 p,
-.p {
-	margin: 12px 0 12px 0;
+.p,
+.margin {
+	margin: 12px 0;
 }
 
-.pp {
-	margin: 24px 0 24px 0;
-}
-
-.ppp {
-	margin: 36px 0 36px 0;	
-}
-
-.pppp {
-	margin: 48px 0 48px 0;
-}
-
-.br {
+.pp,
+.xp,
+.xmargin {
 	margin: 24px 0;
 }
 
+.ppp,
+.xxp,
+.xxmargin {
+	margin: 48px 0;
+}
+
+.box,
+.padding {
+	padding: 12px;
+}
+
+.xpadding {
+	padding: 24px;
+}
+
+.xxpadding {
+	padding: 48px;
+}
+
 s,
-.s,
 del,
-.del {
+.del,
+.strike,
+.delete {
 	text-decoration: line-through;
 }
 
@@ -113,91 +151,140 @@ sup,
 	vertical-align: super
 }
 
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
 b,
 .b,
+.bold,
 strong,
 .strong {
 	font-weight: 700;
 }
 
+.xb,
+.xbold {
+	font-weight: 800;
+}
+
+.xxb,
+.xxbold,
+.black {
+	font-weight: 900;
+}
+
 i,
 .i,
+.italic,
 em,
 .em,
-q,
-.q,
-.quote {
+.emphasis {
 	font-style: italic;
 }
 
 mark,
-.mark {
+.mark,
+.highlight {
 	background-color: yellow;
 }
 
-img,
-iframe {
-	display: block;
-	max-width: 100%;
-}
-
 .box {
-	padding: 12px;
 	border-radius: 5px;
 }
 
-.action-box { background-color: AliceBlue; }
+.box.action { background-color: AliceBlue; }
 
-.info-box { background-color: Moccasin; }
-.info-box a { color: Chocolate; }
+.box.info { background-color: Moccasin; }
+.box.info a { color: Chocolate; }
 
-.error-box { background-color: Salmon; }
-.error-box a { color: DarkRed; }
+.box.error { background-color: Salmon; }
+.box.error a { color: DarkRed; }
 
-small,
-.small {
+.box.success { background-color: SeaGreen; color: white; }
+.box.success a { color: white; }
+
+.xs,
+.xsmall {
 	font-size: 12px;
 }
 
+.s,
+small,
+.small {
+	font-size: 14px;
+}
+
+p,
+.p,
+h4,
+.h4,
+.m,
+.medium {
+	font-size: 16px;
+}
+
+h3,
+.h3,
+.l,
 .large {
+	font-size: 18px;
+}
+
+h2,
+.h2,
+.xl,
+.xlarge {
 	font-size: 24px;
+}
+
+h1,
+.h1,
+.xxl,
+.xxlarge {
+	font-size: 48px;
+}
+
+.mono,
+code,
+.code {
+	font-family: 'Roboto Mono', monospace;
 }
 
 code,
 .code {
-	font-family: 'Roboto Mono', monospace;
-	background-color: LightGrey;
+	background-color: gainsboro;
 	border-radius: 3px;
 	padding: 0 3px;
 }
 
-.center {
-	text-align: center;
-}
+.hidden { display: none; }
+.block { display: block; }
+.inline { display: inline-block; }
 
-.quiet,
-a.quiet,
-.quiet a {
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.grey,
+.gray,
+a.grey,
+a.gray,
+.grey a,
+.gray a {
 	color: grey;
 }
 
-mark.quiet,
-.mark.quiet,
-.quiet mark,
-.quiet .mark {
-	background-color: lemonchiffon;
+.lightgrey,
+.lightgray,
+a.lightgrey,
+a.lightgray,
+.lightgrey a,
+.lightgray a {
+	color: lightgrey;
 }
-
-/*
-hr,
-.hr {
-	border: 0;
-	background-color: LightGrey;
-	height: 1px;
-	margin: 23px auto 24px auto;
-	width: 100px;
-}
-*/
 
 ol li { list-style-type: decimal; }
 ul li { list-style-type: disc; }
@@ -218,44 +305,33 @@ table td {
 	border-bottom: 1px solid #ccc;
 }
 
-blockquote,
-.blockquote {
-	margin: 24px;
-	font-style: italic;
+.emoji {
+	max-height: 24px;
+	vertical-align: top;
 }
 
-blockquote p,
-.blockquote p {
-	/* HACK */
-	margin: 0;
-	display: inline;
+.xs.emoji,
+.xs .emoji,
+.xsmall.emoji,
+.xsmall .emoji {
+	max-height: 18px;
 }
 
-blockquote:before,
-.blockquote:before {
-	content: '\201C';
-}
-
-blockquote:after,
-.blockquote:after {
-	content: '\201D';
+.s.emoji,
+.s .emoji,
+small.emoji,
+small .emoji,
+.small.emoji,
+.small .emoji {
+	max-height: 21px;
 }
 
 .mobile {
 	display: none;
 }
 
-.hidden {
-	display: none;
-}
-
-@media screen and (max-width: 768px) {
-	/* 720 + (24 * 2) */
-
-	/*
-	Google Pixel 4 viewport: 411 x 869
-	iPhone 11 Pro Max viewport: 414 x 896
-	*/
+@media screen and (max-width: 816px) {
+	/* 720 + (48 * 2) = 816 */
 
 	body {
 		margin: 24px;
