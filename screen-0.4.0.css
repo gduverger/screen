@@ -285,9 +285,11 @@ a.lightgray,
 	color: lightgrey;
 }
 
-ol li { list-style-type: decimal; }
-ul li { list-style-type: disc; }
+ol { list-style-type: decimal; }
+ul { list-style-type: disc; }
+ol.nostyle, ul.nostyle { list-style-type: none; }
 li { margin-left: 20px; }
+ol.nostyle li, ul.nostyle li { margin-left: 0; }
 
 table {
 	width: 100%;
