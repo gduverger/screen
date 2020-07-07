@@ -329,6 +329,10 @@ small .emoji,
 	display: none;
 }
 
+.nowrap {
+	white-space: nowrap;
+}
+
 @media screen and (max-width: 816px) {
 	/* 720 + (48 * 2) = 816 */
 
