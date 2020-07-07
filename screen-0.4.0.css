@@ -53,6 +53,10 @@ a.inherit {
 	color: inherit;
 }
 
+img {
+	max-width: 100%;
+}
+
 h1,
 .h1 {
 	line-height: 1.1;
