@@ -21,7 +21,8 @@ body {
 	font-weight: normal;
 	line-height: 1.5;
 	max-width: 720px;
-	margin: 48px;
+	margin: 48px auto;
+	padding: 0 48px;
 
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -390,7 +391,8 @@ input[type="submit"].disabled {
 	/* 720 + (48 * 2) = 816 */
 
 	body {
-		margin: 24px;
+		margin: 24px auto;
+		padding: 0 24px;
 	}
 
 	.wide {
