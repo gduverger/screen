@@ -54,6 +54,10 @@ a.inherit {
 	color: inherit;
 }
 
+a:hover {
+	color: blue !important;
+}
+
 img {
 	max-width: 100%;
 }
