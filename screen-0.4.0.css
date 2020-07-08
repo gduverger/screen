@@ -331,7 +331,7 @@ small .emoji,
 	max-height: 21px;
 }
 
-.mobile {
+.narrow {
 	display: none;
 }
 
@@ -346,11 +346,11 @@ small .emoji,
 		margin: 24px;
 	}
 
-	.desktop {
+	.wide {
 		display: none;
 	}
 
-	.mobile {
+	.narrow {
 		display: inline;
 	}
 }
