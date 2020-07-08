@@ -44,6 +44,7 @@
 					<li><a href="#layout">Layout</a></li>
 					<li><a href="#lists">Lists</a></li>
 					<li><a href="#boxes">Boxes</a></li>
+					<li><a href="#form">Form</a></li>
 					<li><a href="#breaks">Breaks</a></li>
 				</ul>
 			</div>
@@ -154,26 +155,81 @@
 			<div class="p box error"><i>Oh, no!</i> This is <span class="mono">.box.error</span>. You should fix something. <a href="">Link</a></div>
 			<div class="p box success"><i>Yay!</i> This is <span class="mono">.box.success</span>. You did something. <a href="">Link</a></div>
 
+			<hr id="form">
+
+			<h2>Form</h2>
+
+			<form class="p">
+				<div>
+					This is <code>input</code>:
+					<input value="text">
+				</div>
+				<br>
+				<div>
+					This is <code>input[type="button"]</code>:
+					<input type="button" value="text">
+				</div>
+				<div>
+					This is <code>input[type="button"].primary</code>:
+					<input type="button" class="primary" value="text">
+				</div>
+				<div>
+					This is <code>input[type="button"].disabled</code>:
+					<input type="button" class="disabled" value="text" disabled="disabled">
+				</div>
+				<br>
+				<div>
+					This is <code>input[type="submit"]</code>:
+					<input type="submit" value="text">
+				</div>
+				<div>
+					This is <code>input[type="submit"].primary</code>:
+					<input type="submit" class="primary" value="text">
+				</div>
+				<div>
+					This is <code>input[type="submit"].disabled</code>:
+					<input type="submit" class="disabled" value="text" disabled="disabled">
+				</div>
+				<br>
+				<div>
+					This is <code>button</code>:
+					<button>text</button>
+				</div>
+				<div>
+					This is <code>button.primary</code>:
+					<button class="primary">text</button>
+				</div>
+				<div>
+					This is <code>button.disabled</code>:
+					<button class="disabled" disabled="disabled">text</button>
+				</div>
+				<br>
+				<div>
+					This is <code>textarea</code>:
+					<textarea>text</textarea>
+				</div>
+			</form>
+
 			<hr id="breaks">
 
 			<h2>Breaks</h2>
 
-			<h3>Desktop</h3>
+			<h3><code>.wide</code></h3>
 
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. &para;
-				<br class="desktop">Vestibulum mollis semper porttitor. &para;
-				<br class="desktop">Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. &para;
-				<br class="desktop">Proin eget aliquam neque. &para;
+				<br class="wide">Vestibulum mollis semper porttitor. &para;
+				<br class="wide">Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. &para;
+				<br class="wide">Proin eget aliquam neque. &para;
 			</p>
 
-			<h3>Mobile</h3>
+			<h3><code>.narrow</code></h3>
 
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. &para;
-				<br class="mobile">Vestibulum mollis semper porttitor. &para;
-				<br class="mobile">Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. &para;
-				<br class="mobile">Proin eget aliquam neque. &para;
+				<br class="narrow">Vestibulum mollis semper porttitor. &para;
+				<br class="narrow">Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. &para;
+				<br class="narrow">Proin eget aliquam neque. &para;
 			</p>
 
 			<hr>

@@ -339,6 +339,51 @@ small .emoji,
 	white-space: nowrap;
 }
 
+form,
+input,
+button,
+textarea {
+	font-family: 'Inter', -system-ui, system-ui, sans-serif;
+}
+
+textarea {
+	height: 48px;
+	width: 100%;
+	width: -webkit-fill-available;
+	border-color: grey;
+	border-radius: 3px;
+	padding: 6px;
+}
+
+textarea:focus {
+	outline-color: blue;
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	background-color: grey;
+	line-height: 24px;
+	padding: 0 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+}
+
+button.primary,
+input[type="button"].primary,
+input[type="submit"].primary {
+	background-color: blue;
+}
+
+button.disabled,
+input[type="button"].disabled,
+input[type="submit"].disabled {
+	background-color: lightgrey;
+	cursor: default;
+}
+
 @media screen and (max-width: 816px) {
 	/* 720 + (48 * 2) = 816 */
 
