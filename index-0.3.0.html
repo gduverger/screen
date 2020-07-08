@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Screen — CSS for desktops, tablets, & phones</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="CSS for desktops, tablets, and phones">
+		<meta name="keywords" content="css, screen, gduverger, stylesheet">
+
+		<link rel="shortcut icon" type="image/png" href="static/television.png">
+		<link rel="stylesheet" media="screen" href="screen-0.3.0.css">
+		<link rel="stylesheet" href="static/hljs.css">
+
+	</head>
+
+		<body>
+
+			<!-- GitHub Corners: http://tholman.com/github-corners/ -->
+			<a href="https://github.com/gduverger/screen" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+			<h1>Screen &mdash; CSS for desktops, tablets, & phones</h1>
+
+			<p>
+				<a href="screen-0.3.0.css">Download</a> or link to the style sheet.
+				<span class="break"><br></span>
+				<a href="https://github.com/gduverger/screen">Watch, star, and fork</a> on GitHub.
+				<span class="break"><br></span>
+				<a href="https://cash.app/$gduverger">Donate</a> a coffee or two.
+			</p>
+
+<pre class="p"><code class="html">&lt;link <span class="break">
+  </span>rel="stylesheet" <span class="break">
+  </span>media="screen" <span class="break">
+</span>href="https://screencss.com/screen-0.3.0.css"&gt;</code></pre>
+
+			<div class="p">
+				Components:
+				<ul>
+					<li><a href="#typography">Typography</a></li>
+					<li><a href="#headings">Headings</a></li>
+					<li><a href="#quotes">Quotes</a></li>
+					<li><a href="#rulers">Rulers</a></li>
+					<li><a href="#layout">Layout</a></li>
+					<li><a href="#lists">Lists</a></li>
+					<li><a href="#code">Code</a></li>
+					<li><a href="#images">Images</a></li>
+					<li><a href="#boxes">Boxes</a></li>
+					<li><a href="#breaks">Breaks</a></li>
+					<li><a href="#symbols">Symbols</a></li>
+					<li><a href="#emojis">Emojis</a></li>
+				</ul>
+			</div>
+
+			<hr>
+
+			<h2 id="typography">Typography</h2>
+
+			<p>This is a <code>&lt;p&gt;</code> and <code>.p</code>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at imperdiet sem. Nam a orci in ligula egestas rutrum non at mauris. Suspendisse luctus enim augue, non ullamcorper leo porta et. Praesent sit amet semper tortor. Duis eleifend orci eu enim ultrices congue. Fusce non maximus lorem. Nunc magna metus, euismod a ipsum in, aliquet efficitur orci. Duis sodales blandit mi, a lobortis felis rutrum et. Mauris sollicitudin augue quis tincidunt pretium. Morbi ac lorem aliquam nisi ornare venenatis ut vel diam. Aenean vulputate vehicula dapibus. Proin congue venenatis neque, at viverra est imperdiet nec.</p>
+
+			<p>This is <b>&lt;b&gt;</b> and <span class="b">.b</span>.<p>
+			<p>This is <strong>&lt;strong&gt;</strong> and <span class="strong">.strong</span>.</p>
+			<p>This is <i>&lt;i&gt;</i> and <span class="i">.i</span>.</p>
+			<p>This is <em>&lt;em&gt;</em> and <span class="em">.em</span>.</p>
+			<p>This is <mark>&lt;mark&gt;</mark> and <span class="mark">.mark</span>.</p>
+			<p>This is <s>&lt;s&gt;</s> and <span class="s">.s</span>.</p>
+			<p>This is <del>&lt;del&gt;</del> and <span class="del">.del</span>.</p>
+			<p>This is <a href="#">&lt;a&gt;</a>.</p>
+			<p>This is <a href="#" class="inherit">&lt;a.inherit&gt;</a>.</p>
+			<p>This is <span class="quiet">.quiet</span>.</p>
+			<p>This is <a href="#" class="quiet">&lt;a.quiet&gt;</a>.</p>
+			<p class="quiet">This is a .quiet paragraph with <a href="#">&lt;a&gt;</a>.</p>
+			<p>This is <sub>&lt;sub&gt;</sub> and <span class="sub">.sub</span>.</p>
+			<p>This is <sup>&lt;sup&gt;</sup> and <span class="sup">.sup</span>.</p>
+			<p>This is <small>&lt;small&gt;</small> and <span class="small">.small</span>.</p>
+			<p class="small">This is a .small paragraph.</p>
+
+			<hr>
+
+			<h2 id="headings">Headings</h2>
+
+			<h1>This is <code>&lt;h1&gt;</code> and <code>.h1</code>. Lorem <a href="#">ipsum dolor</a> sit amet.</h1>
+			<h2>This is <code>&lt;h2&gt;</code> and <code>.h2</code>. Lorem <a href="#">ipsum dolor</a> sit amet.</h2>
+			<h3>This is <code>&lt;h3&gt;</code> and <code>.h3</code>. Lorem <a href="#">ipsum dolor</a> sit amet.</h3>
+			<h4>This is <code>&lt;h4&gt;</code> and <code>.h4</code>. Lorem <a href="#">ipsum dolor</a> sit amet. (Same as paragraph.)</h4>
+
+			<hr>
+
+			<h2 id="quotes">Quotes</h2>
+
+			<p>This is <q>&lt;q&gt;</q>, <span class="q">.q</span>, and <span class="quote">.quote</span>.</p>
+
+			<div class="p">
+				This is <code>&lt;blockquote&gt;</code>:
+				<blockquote>It's better to have CSS-ed and lost than to never have CSS-ed at all.</blockquote>
+			</div>
+			<div class="p">
+				This is <code>.blockquote</code>:
+				<div class="blockquote">It's better to have CSS-ed and lost than to never have CSS-ed at all.</div>
+			</div>
+
+			<hr>
+
+			<h2 id="rulers">Rulers</h2>
+
+			<div class="p">
+				This is <code>&lt;hr&gt;</code>:
+				<hr>
+			</div>
+
+			<div class="p">
+				This is <code>.hr</code>:
+				<div class="hr"></div>
+			</div>
+
+			<h2 id="layout">Layout</h2>
+
+			<div class="p">
+				This is <code>&lt;center&gt;</code>:
+				<center>Lorem ipsum dolor sit amet.</center>
+			</div>
+
+			<div class="p">
+				This is <code>.center</code>:
+				<div class="center">Lorem ipsum dolor sit amet.</div>
+			</div>
+
+			<hr>
+
+			<h2 id="lists">Lists</h2>
+
+			<div class="p">
+				This is <code>&lt;ul&gt;</code>:
+				<ul>
+					<li>This is <code>&lt;li&gt;</code>.</li>
+					<li>Etiam id ex ac elit volutpat interdum. Fusce sodales maximus tellus, nec egestas odio euismod pulvinar. Cras sed nunc vel massa interdum euismod nec a quam.</li>
+				</ul>
+			</div>
+
+			<div class="p">
+				This is <code>&lt;ol&gt;</code>:
+				<ol>
+					<li>This is <code>&lt;li&gt;</code>.</li>
+					<li>Etiam id ex ac elit volutpat interdum. Fusce sodales maximus tellus, nec egestas odio euismod pulvinar. Cras sed nunc vel massa interdum euismod nec a quam.</li>
+				</ol>
+			</div>
+
+			<hr>
+
+			<h2 id="code">Code</h2>
+
+			<p>This is <code>&lt;code&gt;</code>.</p>
+
+			<p>This is <code>&lt;pre&gt;&lt;code.html&gt;</code>:</p>
+
+<pre><code class="html">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title>Title&lt;/title&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width,initial-scale=1.0"&gt;
+    &lt;!-- &lt;meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"&gt; --&gt;
+    &lt;link rel="shortcut icon" type="image/png" href="…"&gt;
+    &lt;link rel="stylesheet" media="screen" href="…"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Content
+    &lt;script type="text/javascript"&gt;
+      // const element = document.getElementById('…')
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+			<p>The syntax highlighting is powered by <a href="https://highlightjs.org/">highlight.js</a>.
+
+			<hr>
+
+			<h2 id="images">Images</h2>
+
+			<div class="p">
+				<img src="static/image.png">
+				<i class="small quiet">This is a caption</i>
+			</div>
+
+			<hr>
+
+			<h2 id="boxes">Boxes</h2>
+
+			<p>Those are <code>.box</code>.</p>
+
+			<div class="p box action-box">This is <code>.action-box</code>. You should <a href="">do something</a>.</div>
+			<div class="p box info-box">This is <code>.info-box</code>. You should <a href="">know something</a>.</div>
+			<div class="p box error-box">This is <code>.error-box</code>. You should <a href="">fix something</a>.</div>
+
+			<hr>
+
+			<h2 id="breaks">Breaks</h2>
+
+			<p>Minimize the window to &ldquo;break&rdquo; (&para;) the paragraph below.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="break">&para;<br></span>Vestibulum mollis semper porttitor. <span class="break">&para;<br></span>Vestibulum tincidunt, dui ut cursus commodo, felis tellus aliquet neque, quis vulputate augue lacus ut ligula. <span class="break">&para;<br></span>Proin eget aliquam neque. <span class="break">&para;<br></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class="break">&para;<br></span>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <span class="break">&para;<br></span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <span class="break">&para;<br></span>Aliquam dignissim feugiat erat, in congue tellus scelerisque et. <span class="break">&para;<br></span>Sed vitae varius massa.</p>
+
+			<p><code>.break</code> are displayed in responsive mode when:</p>
+			<pre class="p"><code class="css">@media screen and (max-width: 768px)</code></pre>
+
+			<!-- <p>Lorem ipsum dolor sit amet, <wbr>consectetur adipiscing elit.</p> -->
+
+			<hr>
+
+			<h2 id="symbols">Symbols</h2>
+
+			<p>You can find a more complete list of HTML symbols, entities, and ASCII character codes <a href="https://www.toptal.com/designers/htmlarrows/">here</a>.</p>
+
+			<table class="p">
+				<tr>
+					<th>Symbol</th>
+					<th>HTML code</th>
+					<th>HTML entity</th>
+					<th>CSS code</th>
+				</tr>
+				<tr>
+					<td>¶</td>
+					<td>&amp;#182;</td>
+					<td>&amp;para;</td>
+					<td>\00B6</td>
+				</tr>
+				<tr>
+					<td>&</td>
+					<td>&amp;#38;</td>
+					<td>&amp;amp;</td>
+					<td>\0026</td>
+				</tr>
+				<tr>
+					<td>*</td>
+					<td>&amp;#42;</td>
+					<td>&amp;ast;</td>
+					<td>\002A</td>
+				</tr>
+				<tr>
+					<td>™</td>
+					<td>&amp;#8482;</td>
+					<td>&amp;trade;</td>
+					<td>\2122</td>
+				</tr>
+				<tr>
+					<td>←</td>
+					<td>&amp;#8592;</td>
+					<td>&amp;larr;</td>
+					<td>\2190</td>
+				</tr>
+				<tr>
+					<td>↑</td>
+					<td>&amp;#8593;</td>
+					<td>&amp;uarr;</td>
+					<td>\2191</td>
+				</tr>
+				<tr>
+					<td>→</td>
+					<td>&amp;#8594;</td>
+					<td>&amp;rarr;</td>
+					<td>\2192</td>
+				</tr>
+				<tr>
+					<td>↓</td>
+					<td>&amp;#8595;</td>
+					<td>&amp;darr;</td>
+					<td>\2193</td>
+				</tr>
+				<tr>
+					<td>$</td>
+					<td>&amp;#36;</td>
+					<td>&amp;dollar;</td>
+					<td>\0024</td>
+				</tr>
+				<tr>
+					<td>¢</td>
+					<td>&amp;#162;</td>
+					<td>&amp;cent;</td>
+					<td>\00A2</td>
+				</tr>
+				<tr>
+					<td>€</td>
+					<td>&amp;#8364;</td>
+					<td>&amp;euro;</td>
+					<td>\20AC</td>
+				</tr>
+				<tr>
+					<td>℃</td>
+					<td>&amp;#8451;</td>
+					<td>-</td>
+					<td>\2103</td>
+				</tr>
+				<tr>
+					<td>℉</td>
+					<td>&amp;#8457;</td>
+					<td>-</td>
+					<td>\2109</td>
+				</tr>
+				<tr>
+					<td>“</td>
+					<td>&amp;#8220;</td>
+					<td>&amp;ldquo;</td>
+					<td>\201C</td>
+				</tr>
+				<tr>
+					<td>”</td>
+					<td>&amp;#8221;</td>
+					<td>&amp;rdquo;</td>
+					<td>\201D</td>
+				</tr>
+
+			</table>
+
+			<div class="p">
+				HTML:
+<pre><code class="html">&lt;span&gt;&amp;#182;&lt;/span&gt; &lt;!-- HTML code or entity --&gt; </code></pre>
+			</div>
+
+			<div class="p">
+				CSS:
+<pre><code class="css">span {
+  content: "\00B6"; /* CSS code */
+}
+</code></pre>
+			</div>
+
+			<hr>
+			
+			<h2 id="emojis">Emojis</h2>
+
+			<p>💪👌👋👍👎🤝🙏🤯💯➕</p>
+
+			<hr>
+
+			<p class="quiet small center">
+				Made in Cambridge, MA ☘️<br>
+				<a href="https://gduverger.com/">About</a> &middot;
+				<a href="https://app.usefathom.com/share/aaeevniz/screen">Analytics</a>
+			</p>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+			<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+
+			<!-- Fathom - simple website analytics - https://usefathom.com -->
+			<script>
+			(function(f, a, t, h, o, m){
+				a[h]=a[h]||function(){
+					(a[h].q=a[h].q||[]).push(arguments)
+				};
+				o=f.createElement('script'),
+				m=f.getElementsByTagName('script')[0];
+				o.async=1; o.src=t; o.id='fathom-script';
+				m.parentNode.insertBefore(o,m)
+			})(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+
+			fathom('set', 'siteId', 'AAEEVNIZ');
+			// fathom('trackPageview');
+
+			// DOC: https://usefathom.com/support/localhost
+			var fathomExcludeHostnames = [
+				'localhost',
+				'127.0.0.0',
+				'127.0.0.1'
+			];
+
+			if (fathomExcludeHostnames.indexOf(window.location.hostname) === -1) {
+				fathom('trackPageview');
+			}
+			</script>
+			<!-- / Fathom -->
+
+		</body>
+</html>
