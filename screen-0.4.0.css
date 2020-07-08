@@ -310,6 +310,8 @@ table td {
 	border-bottom: 1px solid #ccc;
 }
 
+table .nostyle td { border-bottom: none; }
+
 .emoji {
 	max-height: 24px;
 	vertical-align: top;
