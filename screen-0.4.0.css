@@ -54,8 +54,8 @@ a.inherit {
 	color: inherit;
 }
 
-a:hover {
-	color: blue !important;
+a.inherit:hover {
+	color: blue;
 }
 
 img {
