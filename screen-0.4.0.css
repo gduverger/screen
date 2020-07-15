@@ -320,13 +320,6 @@ table .nostyle td { border-bottom: none; }
 	vertical-align: top;
 }
 
-.xs.emoji,
-.xs .emoji,
-.xsmall.emoji,
-.xsmall .emoji {
-	max-height: 18px;
-}
-
 .s.emoji,
 .s .emoji,
 small.emoji,
@@ -334,6 +327,13 @@ small .emoji,
 .small.emoji,
 .small .emoji {
 	max-height: 21px;
+}
+
+.xs.emoji,
+.xs .emoji,
+.xsmall.emoji,
+.xsmall .emoji {
+	max-height: 18px;
 }
 
 .narrow {
