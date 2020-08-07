@@ -349,6 +349,7 @@ input,
 button,
 textarea {
 	font-family: 'Inter', -system-ui, system-ui, sans-serif;
+	-webkit-appearance: none;
 }
 
 textarea {
